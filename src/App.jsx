@@ -1,6 +1,6 @@
 import Navbar from "./components/layout/NavBar"
 import Footer from "./components/layout/Footer";
-import FloatingContact from "./components/ui/FloatingContact";
+//import FloatingContact from "./components/ui/FloatingContact";
 
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
@@ -20,7 +20,7 @@ export default function App() {
         <Location />
       </main>
       <Footer />
-      <FloatingContact />
+     {/* <FloatingContact /> */}
     </>
   );
 }
